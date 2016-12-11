@@ -1,0 +1,14 @@
+Host school
+    HostName elvis.cs.rit.edu
+    Port 22
+    User sxn8192
+
+Host school2
+    HostName queeg.cs.rit.edu
+    Port 22
+    User sxn8192
+
+Host school3
+    HostName achilles.cs.rit.edu
+    Port 22
+    User sxn8192
