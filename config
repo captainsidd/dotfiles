@@ -12,3 +12,8 @@ Host school3
     HostName achilles.cs.rit.edu
     Port 22
     User sxn8192
+
+Host droplet
+    HostName  138.197.253.82
+    Port 22
+    User root
