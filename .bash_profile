@@ -1,4 +1,4 @@
-export PS1="\\[[\T\135 \033[36m\]\u\[\033[m\]@\[\033[32m\]\h:\[\033[33;1m\]\w\[\033[m\]\$ "
+export PS1="[\T] \[\e[36m\]\u\[\e[m\]@\[\e[32m\]\h:\[\e[m\033[33;1m\]\w\[\e[m\]\\$ "
 export CLICOLOR=1
 export LSCOLORS=ExFxBxDxCxegedabagacad
 alias ls='ls -GFh'
