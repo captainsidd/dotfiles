@@ -28,8 +28,8 @@ brew install python2;
 brew install python3;
 python2 -m pip install --upgrade setuptools;
 pip2 install virtualenvwrapper;
-echo "source /usr/local/bin/virtualenvwrapper.sh" >> ~/.bash_profile;
 echo "export VIRTUALENVWRAPPER_PYTHON=$(which python2)" >> ~/.bash_profile;
+echo "source /usr/local/bin/virtualenvwrapper.sh" >> ~/.bash_profile;
 source ~/.bash_profile;
 
 # Open a new Terminal window
