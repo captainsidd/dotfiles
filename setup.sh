@@ -20,12 +20,12 @@ cp ./config ~/.ssh/config;
 vim +PluginInstall +qall;
 git config --global core.editor /usr/bin/vim;
 brew install pt;
+brew install tmux;
 npm install -g tldr;
-npm install -g serverless;
 
 # Install python2, python3, virtualenv
-brew install python2;
 brew install python3;
+brew install python@2;
 python2 -m pip install --upgrade setuptools;
 pip2 install virtualenvwrapper;
 echo "export VIRTUALENVWRAPPER_PYTHON=$(which python2)" >> ~/.bash_profile;
