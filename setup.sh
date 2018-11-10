@@ -25,7 +25,9 @@ brew install tmux;
 npm install -g tldr;
 
 # Install python2, python3, virtualenv
-brew install python3;
+brew install python3; # installs 3.7
+brew unlink python;
+brew install https://raw.githubusercontent.com/Homebrew/homebrew-core/f2a764ef944b1080be64bd88dca9a1d80130c558/Formula/python.rb; #installs 3.6
 brew install python@2;
 python2 -m pip install --upgrade setuptools;
 pip2 install virtualenvwrapper;
@@ -35,13 +37,15 @@ source ~/.bash_profile;
 
 # Install essential programs
 brew cask install google-chrome;
+brew cask install dropbox;
+brew cask install flux;
+brew cask install slack;
 brew cask install visual-studio-code;
 brew cask install spotify;
 brew cask install adobe-acrobat-reader;
 brew cask install polymail;
 brew cask install postman;
 brew cask install filezilla;
-brew cask install soda-player;
 
 # Open a new Terminal window
 open ./DotGov.Terminal;
