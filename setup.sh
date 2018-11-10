@@ -5,8 +5,9 @@ xcode-select --install;
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)";
 brew tap caskroom/cask;
 
-# Install node + vim package manager
+# Install node + go + vim package manager
 brew install node;
+brew install go;
 git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim;
 
 # Copy various profiles from cloned dotfiles repo
@@ -46,7 +47,10 @@ brew cask install visual-studio-code;
 brew cask install spotify;
 brew cask install adobe-acrobat-reader;
 brew cask install polymail;
+brew cask install notion;
 brew cask install postman;
+brew install r;
+brew cask install rstudio;
 brew cask install filezilla;
 
 # Open a new Terminal window
