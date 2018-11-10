@@ -20,6 +20,8 @@ cp ./config ~/.ssh/config;
 # Finish setting up vim, install other stuff
 vim +PluginInstall +qall;
 git config --global core.editor /usr/bin/vim;
+brew install bash;
+brew install git;
 brew install pt;
 brew install tmux;
 npm install -g tldr;
