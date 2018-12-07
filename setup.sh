@@ -11,7 +11,7 @@ brew install go;
 git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim;
 
 # Copy various profiles from cloned dotfiles repo
-git clone https://github.com/sidgonuts/dotfiles.git;
+git clone https://github.com/captainsidd/dotfiles.git;
 cd dotfiles;
 cp ./.bash_profile ~/.bash_profile;
 cp ./.vimrc ~/.vimrc;
